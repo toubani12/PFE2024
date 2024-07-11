@@ -1,0 +1,125 @@
+<<<<<<< HEAD
+* {
+=======
+*{
+>>>>>>> origin/main
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+<<<<<<< HEAD
+
+.sidebar {
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  min-width: 200px;
+  width: 300px; /* Assuming a fixed width for the sidebar */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* To space out the footer at the bottom */
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo-icon {
+=======
+.sidebar{
+color: aliceblue;
+}
+.logo{
+display: flex;
+align-content: center;
+justify-content: center;
+color: #fff;
+padding: 10px;
+}
+.logo-icon{
+>>>>>>> origin/main
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background-color: rgba(28, 17, 41, 0.88);
+}
+<<<<<<< HEAD
+
+.menu-bar {
+=======
+.menu-bar{
+  height: 88vh;
+>>>>>>> origin/main
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+<<<<<<< HEAD
+  font-size: 1rem;
+  overflow-y: auto; /* Allow scrolling within the menu bar */
+}
+
+.toogle-theme-btn {
+=======
+  font-size: 1rem;  
+  position: relative;
+}
+.toogle-theme-btn{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+>>>>>>> origin/main
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+<<<<<<< HEAD
+}
+
+.demo-loadmore-list {
+  min-height: 350px;
+  overflow-x: scroll;
+  max-height: 50vh;
+  margin-top: 40px;
+}
+
+.toggle {
+  margin-left: 15px;
+}
+
+.footer {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  
+}
+.cards{
+  overflow-y: scroll;
+  min-height: 350px;
+  overflow-x: scroll;
+  max-height: 80vh;
+  margin-top: 40px;
+}
+=======
+
+}
+
+.toggle{
+  margin-left: 15px;
+  
+}
+>>>>>>> origin/main
